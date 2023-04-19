@@ -16,4 +16,4 @@ spec:
       - image: docker.io/kennethreitz/httpbin
         name: httpbin
         ports:
-        - containerPort: 80
+        - containerPort: 8080
