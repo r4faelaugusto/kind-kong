@@ -7,4 +7,4 @@ do
 done
 
 
-# curl -I "http://httpbin.local/headers"
+# curl -I "http://httpbin.rafaelaugusto.dev.br/headers"

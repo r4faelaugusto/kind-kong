@@ -3,4 +3,4 @@ server:
     enabled: true
     ingressClassName: "kong"
     hosts:
-      - argocd.local
+      - argocd.rafaelaugusto.dev.br

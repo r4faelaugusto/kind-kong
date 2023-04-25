@@ -18,7 +18,7 @@ spec:
             enabled: true
             ingressClassName: kong
             hosts:
-            - prometheus.local
+            - prometheus.rafaelaugusto.dev.br
   destination:
     server: https://kubernetes.default.svc
     namespace: monitoring

@@ -48,10 +48,10 @@ spec:
           enabled: true
           ingressClassName: kong
           hosts:
-            - "grafana.local"
+            - "grafana.rafaelaugusto.dev.br"
         grafana.ini:
           server:
-            domain: grafana.local
+            domain: grafana.rafaelaugusto.dev.br
   destination:
     server: https://kubernetes.default.svc
     namespace: monitoring
