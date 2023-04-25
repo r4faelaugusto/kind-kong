@@ -21,7 +21,7 @@ spec:
             - prometheus.rafaelaugusto.dev.br
   destination:
     server: https://kubernetes.default.svc
-    namespace: monitoring
+    namespace: prometheus-monitoring
   syncPolicy:
     syncOptions:
       - CreateNamespace=true

@@ -54,7 +54,7 @@ spec:
             domain: grafana.rafaelaugusto.dev.br
   destination:
     server: https://kubernetes.default.svc
-    namespace: monitoring
+    namespace: grafana-monitoring
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
